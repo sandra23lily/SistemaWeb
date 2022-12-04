@@ -23,9 +23,9 @@
             echo "<empleado><br/>";
             echo "<Id_Empleado>". $fila['Id_Empleado'] . "</Id_Empleado>";
             echo "<curp>" . $fila['curp'] . "</curp>";
-            echo "<nombres>" . $fila['nombres'] . "</nombres>";
-            echo "<apellidos>" . $fila['apellidos'] . "</apellidos>";
-            echo "<Telefono>" . $fila['Telefono'] . "</Telefono>";
+            echo "<nombres>" . $fila['nombres'] . "</nombres><br/>";
+            echo "<apellidos>" . $fila['apellidos'] . "</apellidos><br/>";
+            echo "<Telefono>" . $fila['Telefono'] . "</Telefono><br/>";
             echo "</empleado><br/>";
         }
         echo "</empleado>";
